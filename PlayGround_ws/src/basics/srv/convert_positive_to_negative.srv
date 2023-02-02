@@ -1,0 +1,4 @@
+int32 positive_number		# Request message: positive number to be converted to negative number.
+---
+int32 negative_number		# Response message: negative number after conversion.
+bool success			# Response message: Success or failure of conversion.

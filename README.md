@@ -1,1 +1,2 @@
 # ROS_Basics
+This may be the first workspace I created. Publishers, subscribers, messages, servers, clients, actions, launch files, etc. includes. I remember looking at this workspace to check syntax or mindset in my other and complex works.

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Start the order pizza action server node /-->
+  <node name="order_pizza_action_server" pkg="basics" type="pizza_order_as.py"
+    output="screen">
+    <!-- <param name="order_pizza" type="int" value="$(arg order_pizza_parameter)"/> /-->
+  </node>
+
+  <!-- Start the pizza order client ROS node.-->
+  <node name="order_pizza_action_client" pkg="basics" type="pizza_order_ac.py"
+    output="screen"/>
+
+  <!-- Start the positive_to_negative service server ROS node.-->
+  <node name="positive_to_negative" pkg="basics" type="even_number_to_negative_server.py"
+    output="screen"/>
+
+  <!-- Start the template publisher ROS node.-->
+  <node name="odd_number_publisher" pkg="basics" type="odd_number_publisher.py"
+    output="screen"/>
+
+  <!-- Start the template subscriber and server client ROS node.-->
+  <node name="odd_number_subscriber_and_positive_to_negative_client" pkg="basics" type="odd_number_subscriber_and_client.py"
+    output="screen"/>
+</launch>

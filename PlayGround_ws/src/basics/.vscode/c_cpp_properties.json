@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/Alperen/ROS_WorkSpaces/PlayGround_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/Alperen/ROS_WorkSpaces/PlayGround_ws/src/basics/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
